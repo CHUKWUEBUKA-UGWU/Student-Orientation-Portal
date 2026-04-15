@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Orientation Portal Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter Your Fullname" required><br><br>
+        <label for="matriculation_number">Matriculation Number:</label>
+        <input type="text" id="matriculation_number" name="matriculation_number" placeholder="Enter Your Matriculation Number" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter Your Age"><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required><br><br>
+        <label for="faculty">Faculty:</label>
+        <select id="faculty" name="faculty" required>
+            <option value="NAS">Natural And Applied Sciences</option>
+            <option value="mathematics">Mathematics</option>
+            <option value="physics">Physics</option>
+        </select><br><br>
+        <label for="documents_submitted">Documents Submitted:</label><br>
+        <label for="admission_letter">Admission Letter</label>
+        <input type="checkbox" id="admission_letter" name="documents_submitted" required><br>
+        <label for="waec_results">WAEC Results</label>
+        <input type="checkbox" id="waec_results" name="documents_submitted" required><br>
+        <label for="jamb_result">JAMB Result</label>
+        <input type="checkbox" id="jamb_result" name="documents_submitted" required><br>
+        <label for="birth_certificate">Birth Certificate</label>
+        <input type="checkbox" id="birth_certificate" name="documents_submitted"><br>
+        <label for="medical_report">Medical Report</label>
+        <input type="checkbox" id="medical_report" name="documents_submitted"><br>
+        <label for="attestation_letter">Attestation Letter</label>
+        <input type="checkbox" id="attestation_letter" name="documents_submitted"><br><br>
+        <label for="passport">Upload Passport</label>
+        <input type="file" id="passport"><br><br>
+        <textarea name="comments" id="comments" placeholder="Enter any additional comments here..."></textarea>
+        </fieldset><br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
